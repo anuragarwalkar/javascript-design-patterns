@@ -1,9 +1,9 @@
-var Store = require('./Store');
-var inventory = require('./inventory');
+const Store = require('./Store');
+const inventory = require('./inventory');
 
-var skiShop = new Store('Steep and Deep', inventory);
+const skiShop = new Store('Steep and Deep', inventory);
 
-var searchItem = 'ski poles';
-var results = skiShop.find(searchItem);
+const searchItem = 'ski poles';
+const results = skiShop.find(searchItem);
 
 console.log( results );
